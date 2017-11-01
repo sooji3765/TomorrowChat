@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.user.tomorrowchat.Memo.MemoActivity"
+    tools:showIn="@layout/activity_memo"
+    android:layout_marginBottom="7dp"
+    >
+
+    <ListView
+        android:layout_margin="5dp"
+        android:id="@+id/memo_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/memo_list"
+       >
+
+    </ListView>
+
+</RelativeLayout>

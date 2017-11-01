@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.user.tomorrowchat.FindBoard.BlogSingleActivity"
+    android:orientation="vertical"
+    >
+    <include layout="@layout/app_bar_layout"
+        android:id="@+id/single_app_toolbar"/>
+
+
+    <ImageView
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        android:id="@+id/blog_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/blog_writer"
+        android:layout_alignParentStart="true"
+        android:adjustViewBounds="true"
+        android:background="#00ffffff"
+        app:srcCompat="@mipmap/add_btn" />
+
+    <TextView
+        android:id="@+id/blog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/blog_image"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"
+        android:text="Title"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/blog_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/blog_title"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="17dp"
+        android:text="Description" />
+
+    <TextView
+        android:id="@+id/blog_writer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="Writer"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:visibility="invisible"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/cardview_light_background"
+        android:background="@color/colorPrimaryDark"
+        android:text="ADD Friend"
+        android:id="@+id/Add_friendBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/romoveBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorPrimary"
+        android:text="romove"
+        android:textColor="@color/cardview_light_background"
+        android:visibility="invisible" />
+</LinearLayout>
+</ScrollView>

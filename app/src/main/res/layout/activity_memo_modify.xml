@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context= "Memo.MemoModify">
+
+    <include layout="@layout/app_bar_layout"
+        android:id="@+id/toobar_app_memo"/>
+
+    <TextView
+        android:text="글내용"
+        android:id="@+id/content_memo_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:gravity="start"
+        android:padding="10dp"
+        android:textColor="?attr/actionModeSplitBackground"
+        android:layout_below="@+id/toobar_app_memo" />
+
+</RelativeLayout>

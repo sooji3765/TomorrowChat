@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "527519209951",
+    "firebase_url": "https://tomorrow-49470.firebaseio.com",
+    "project_id": "tomorrow-49470",
+    "storage_bucket": "tomorrow-49470.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:527519209951:android:b7584fb0ca136a7a",
+        "android_client_info": {
+          "package_name": "com.example.user.tomorrowchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "527519209951-9oos3li66rh23qq19h02uavr4ccd28kv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.tomorrowchat",
+            "certificate_hash": "3db5f3ba5d85df95a082fa7f8a769373f0d9ee62"
+          }
+        },
+        {
+          "client_id": "527519209951-uslues5sbuqs7vpc75adenmj3fj7nuk3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzj6IIiR-DEZxmI2nUDAoYtaFKXOgNvcQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "527519209951-uslues5sbuqs7vpc75adenmj3fj7nuk3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

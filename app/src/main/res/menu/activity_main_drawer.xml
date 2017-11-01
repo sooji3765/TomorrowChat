@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_review"
+            android:icon="@drawable/ic_menu_board"
+            android:title="Board" />
+        <item
+            android:id="@+id/nav_find"
+            android:icon="@drawable/ic_menu_chat"
+            android:title="Find Friends" />
+
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_menu_map"
+            android:title="Map" />
+        <item
+            android:id="@+id/nav_memo"
+            android:icon="@drawable/ic_menu_memo"
+            android:title="Memo" />
+
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_supervisor_account_black_24dp"
+            android:title="Chat" />
+
+    </group>
+
+    <item android:title="App info">
+        <menu>
+            <item
+                android:id="@+id/nav_manage"
+                android:icon="@drawable/ic_action_account_circle_40"
+                android:title="Profile" />
+
+        </menu>
+    </item>
+
+</menu>
